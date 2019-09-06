@@ -42,6 +42,7 @@ DB.prepare("update_movies",
           "id" => result["id"].to_i,
            "title" => result["title"],
             "rating" => result["rating"],
+            "year" => result["year"],
              "recommend" => result["recommend"],
 
 
@@ -77,7 +78,7 @@ DB.prepare("update_movies",
       "id" => results.first["id"].to_i,
       "title" => results.first["title"],
       "rating" => results.first["rating"],
-      "year" => results.first["year"].to_i,
+      "year" => results.first["year"],
       "recommend" => results.first["recommend"]
     }
 
@@ -97,6 +98,7 @@ DB.prepare("update_movies",
       "year" => results.first["year"],
       "recommend" => results.first["recommend"]
     }
+
   end
 
 end
