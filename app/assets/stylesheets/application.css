@@ -1,6 +1,5 @@
 
 body{
-  background-color: : whitesmoke;
 font-family: 'Raleway', sans-serif;
 margin: 0;
 color: black;
@@ -125,8 +124,9 @@ Footer{
   width: 100%;
   text-align: center;
   color: black;
-  padding: 10px;
-  background-color: rgba(255,255,255, 0.7);
+  background-color: white;
+
+
 }
 
 .items{
