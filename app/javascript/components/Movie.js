@@ -15,7 +15,7 @@ class Movie extends React.Component {
   // ==============
   render () {
     return (
-      <article>
+      <article className="items">
         <div className="movie-title">
         <h1> {this.props.postData.title}</h1>
         </div>
@@ -25,13 +25,16 @@ class Movie extends React.Component {
         <div className="movie-year">
         <h2>{this.props.postData.year}</h2>
         </div>
+        <div className="movie-image">
+      <img src={this.props.postData.image} alt="poster" height="400" width="240"/>
+        </div>
         <div className="movie-recommend">
-        <h2>{this.props.postData.recommend}</h2>
+        <h2>Recommend: {this.props.postData.recommend}</h2>
         </div>
         <div className="movie-options">
          <ul>
-          <li onClick={() => {this.props.handleView('editPost', this.props.postData)}}>edit post</li>
-           <li onClick={() => {this.props.handleDelete(this.props.postData.id)}}>delete post</li>
+          <button onClick={() => {this.props.handleView('editPost', this.props.postData)}}>Edit Movie</button>
+          <button onClick={() => {this.props.handleDelete(this.props.postData.id)}}>Delete Movie</button>
          </ul>
        </div>
       </article>
