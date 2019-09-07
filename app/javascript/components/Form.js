@@ -111,6 +111,23 @@ class Form extends React.Component {
         <input type="submit" value="New Movie"/>
       </form>
 
+      <form onSubmit={this.getOMDB}>
+
+          <label htmlFor='movieTitle'>Get OMDB Data</label>
+          <input
+            id='movieTitle'
+            type='text'
+            value={this.state.movieTitle}
+            onChange={this.handleChange}
+          />
+
+          <input
+            type='submit'
+            value='Find Movie Info'
+          />
+
+        </form>
+
 
       </div>
     )
