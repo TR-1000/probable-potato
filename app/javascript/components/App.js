@@ -6,6 +6,7 @@ import React from 'react'
 import Main from './Main.js'
 import Aside from './Aside.js'
 import Header from './Header.js'
+import Footer from './Footer.js'
 // =============================
 // COMPONENT CLASS
 // =============================
@@ -16,12 +17,13 @@ class App extends React.Component {
     this.state = {
       view: {
         page: 'home',
-        pageTitle: 'What Do You Want To Watch?',
+        pageTitle: '',
       },
       formInputs:{
         title:null,
         rating:null,
         year:null,
+        image:null,
         recommend:null,
         id:null
       }
@@ -36,23 +38,25 @@ class App extends React.Component {
         title:'',
         rating:'',
         year: '',
+        image:'',
         recommend:'',
         id:null
       }
       // decide the pageTitle based on the view
       switch (view) {
         case 'home':
-          pageTitle = 'What Do You Want To Watch'
+          pageTitle = ''
           break
         case 'addPost':
-          pageTitle = 'Are You Sure?'
+          pageTitle = ''
           break
         case 'editPost':
-          pageTitle = 'Did You Like It ?'
+          pageTitle = ''
           formInputs = {
             title: postData.title,
             rating: postData.rating,
             year: postData.year,
+            image: postData.image,
             recommend: postData.recommend,
             id: postData.id
           }
@@ -76,14 +80,16 @@ class App extends React.Component {
     return (
       <div className="large-container">
         <Header/>
-        <div className="main-container">
           <Aside handleView={this.handleView}/>
+        <div className="main-container">
+
           <Main
           view={this.state.view}
           handleView={this.handleView}
           formInputs={this.state.formInputs}
             />
         </div>
+        <Footer/>
       </div>
     )
   }
