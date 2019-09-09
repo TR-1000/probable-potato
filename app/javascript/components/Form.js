@@ -3,7 +3,7 @@
 // =============================
 // packages
 import React from 'react'
-
+import Moviedata from './Moviedata.js'
 // =============================
 // COMPONENT CLASS
 // =============================
