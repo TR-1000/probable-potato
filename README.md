@@ -1,28 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
 # Takia & Marcos
 
 # What are you watching tonight application
@@ -33,3 +8,5 @@ Things you may want to cover:
 4. States was easier to understand after the initial build.
 5. Adding components became easier as project continued.
 6. API integration was key for whole application process.
+
+![](https://github.com/TR-1000/probable-potato/blob/master/Screenshot.png)
