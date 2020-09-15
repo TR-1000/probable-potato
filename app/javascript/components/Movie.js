@@ -26,11 +26,9 @@ class Movie extends React.Component {
         <h2>{this.props.postData.year}</h2>
         </div>
         <div className="movie-image">
-<<<<<<< HEAD
+
       <img src={this.props.postData.image} alt="poster" height="400" width="280"/>  
-=======
       <img src={this.props.postData.image} alt="poster" height="400" width="240"/>
->>>>>>> 6f0578c64df2cc35573e097330116621775c7e43
         </div>
         <div className="movie-recommend">
         <h2>Recommend: {this.props.postData.recommend}</h2>
@@ -38,11 +36,9 @@ class Movie extends React.Component {
         <div className="movie-options">
          <ul>
           <button onClick={() => {this.props.handleView('editPost', this.props.postData)}}>Edit Movie</button>
-<<<<<<< HEAD
+           
            <button onClick={() => {this.props.handleDelete(this.props.postData.id)}}>Delete Movie</button>
-=======
-          <button onClick={() => {this.props.handleDelete(this.props.postData.id)}}>Delete Movie</button>
->>>>>>> 6f0578c64df2cc35573e097330116621775c7e43
+
          </ul>
        </div>
       </article>
