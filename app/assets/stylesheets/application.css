@@ -94,16 +94,14 @@ Footer{
   height: 75px;
   width: 100%;
   background-color: black;
-<<<<<<< HEAD
   color: white;
   text-align: center;
   padding-top: 20px;
-=======
   padding: 20px;
   color: white;
   text-align: center;
->>>>>>> 6f0578c64df2cc35573e097330116621775c7e43
 }
+
 .menu{
   text-align: center;
   color:white;
@@ -125,7 +123,7 @@ Footer{
 
 }
 
-<<<<<<< HEAD
+
 .omdb{
   width: 100%;
   text-align: center;
@@ -135,8 +133,7 @@ Footer{
 
 }
 
-=======
->>>>>>> 6f0578c64df2cc35573e097330116621775c7e43
+
 .items{
 text-align: center;
 padding: 30px;
