@@ -170,7 +170,6 @@ fetchMovies = () => {
         />
         ))
       :<Form
-<<<<<<< HEAD
           handleCreate={this.handleCreate}
           handleUpdate={this.handleUpdate}
           formInputs={this.props.formInputs}
@@ -178,14 +177,12 @@ fetchMovies = () => {
         />
 
         }
-=======
         handleCreate={this.handleCreate}
         handleUpdate={this.handleUpdate}
         formInputs={this.props.formInputs}
         view={this.props.view}
       />
       }
->>>>>>> 6f0578c64df2cc35573e097330116621775c7e43
 
       </main>
     )
