@@ -1,15 +1,8 @@
-
-<<<<<<< HEAD
 body{
-=======
-
-body{
-  background-color: : whitesmoke;
->>>>>>> 6f0578c64df2cc35573e097330116621775c7e43
-font-family: 'Raleway', sans-serif;
-margin: 0;
-color: black;
-
+  background-color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  color: black;
 }
 
 main{
