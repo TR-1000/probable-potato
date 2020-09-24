@@ -15,7 +15,7 @@ class Form extends React.Component {
     super()
     this.state = {
       url: {
-        baseURL: 'http://www.omdbapi.com/?apikey=cb44598d&t=',
+        baseURL: 'https://www.omdbapi.com/?apikey=cb44598d&t=',
         movieTitle: '',
         searchURL: '',
       },
