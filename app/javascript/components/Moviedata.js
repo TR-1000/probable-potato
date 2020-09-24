@@ -5,7 +5,7 @@ class Moviedata extends React.Component {
   constructor (props) {
     super(props)
       this.state = {
-        baseURL: 'http://www.omdbapi.com/?apikey=cb44598d&t=',
+        baseURL: 'https://www.omdbapi.com/?apikey=cb44598d&t=',
         movieTitle: '',
         searchURL: '',
         title: '',
